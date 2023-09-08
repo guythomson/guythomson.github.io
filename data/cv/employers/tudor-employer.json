@@ -1,0 +1,38 @@
+{
+  "Name": "Tudor Capital Europe LLP",
+  "Website": "https://www.tudor.com/",
+  "StartYear": 2003,
+  "Blurb": "Tudor has a rich 4-decade history in global investment with discretionary macro trading, model-driven and systematic investment approaches.",
+  "Roles": [ 
+    {
+      "Name": "Head of Systems Front Office IT",
+      "Start": "2013-08-01T00:00:00.000Z",
+      "End": "2020-10-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Chief Software Architect",
+      "Start": "2012-06-01T00:00:00.000Z",
+      "End": "2020-10-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Interim Head of Software",
+      "Start": "2012-06-01T00:00:00.000Z",
+      "End": "2013-01-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Head of Transaction Processing",
+      "Start": "2010-06-01T00:00:00.000Z",
+      "End": "2012-06-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Software Engineering Manager",
+      "Start": "2008-10-01T00:00:00.000Z",
+      "End": "2010-06-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Software Engineer",
+      "Start": "2003-03-23T00:00:00.000Z",
+      "End": "2008-10-01T00:00:00.000Z"
+    }
+  ]
+}

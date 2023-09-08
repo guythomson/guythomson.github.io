@@ -1,0 +1,34 @@
+{
+    "list": [
+        {
+            "What": "Management Training",
+            "Who": "Morgan Clarke",
+            "Start": "2008",
+            "End": ""
+        },
+        {
+            "What": "Managing Personality Types with Myer Briggs",
+            "Who": "Tudor Capital UK LP",
+            "Start": "2006",
+            "End": ""
+        },
+        {
+            "What": "Managing Risk and Quality",
+            "Who": "University of Oxford",
+            "Start": "2001",
+            "End": ""
+        },
+        {
+            "What": "MSc in High Performance Parallel Computing and Computation",
+            "Who": "University of Warwick",
+            "Start": "1997",
+            "End": "1998"
+        },
+        {
+            "What": "BSc Hons Applied Mathematics with Computing",
+            "Who": "University of Warwick",
+            "Start": "1994",
+            "End": "1997"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+Skills:
+  Transferable:
+    - Leadership and team management: "Successfully leading large teams, remote and in person, and fostering an environment where everyone is invested in high-quality releases. Coaching team members, including those with neurodiversity, to develop their skills outside their comfort zones."
+    - Project management: "Managing multiple projects simultaneously, defining and managing risks, and delivering on time, within budget, while maintaining quality."
+    - Organisational management: "Preparing annual budgets, defining and monitoring KPIs, procuring hardware/software/external services, defining and documenting business continuity plans."
+    - Problem-solving: "Developing innovative solutions to complex problems, resulting in cost savings and increased efficiency."
+    - Communication: "Effectively communicating project goals and progress to stakeholders at all levels."
+    - Time management and Adaptability: "Balancing the needs of different stakeholders, tight deadlines in the face of increasing regulation and compliance."
+    - Vendor relations: "Negotiating contracts, reducing expenditure, and keeping vendors engaged to improve services."
+  Languages:
+    - Java
+    - Python
+    - C++
+    - Delphi
+    - ANSI SQL
+    - T-SQL
+    - HTML
+  Databases:
+    - Sybase ASE
+    - MS SQL Server
+    - OneTick
+    - BusinessObjects
+  Middleware:
+    - ActiveMQ
+    - Kafka
+    - HazelCast
+    - Coherence
+    - GridGain
+  OS:
+    - Windows 10
+    - Windows 11
+    - RHEL 7
+    - Ubuntu 22.04 LTS
+    - Arch Linux
+  Workflow:
+    - Git
+    - GitHub
+    - Jira
+    - Confluence
+    - TeamCity
+    - Service Now
+    - BitWarden
+  Vitualisation:
+    - Docker
+    - LXD
+    - Kubernetes
+    - Proxmox 8
+    - KVM
+  Cloud:
+    - Amazon AWS - EC2 & Lambda
+    - Azure - Active Directory, DNS, Exchange routing, Office 365, Intune
+  Other:
+    - I can get up-to-speed on new technologies quickly.

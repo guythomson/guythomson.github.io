@@ -1,0 +1,25 @@
+<footer class="footer text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				<h3 class="text-uppercase mb-2">Social</h3>
+				{{ range .Site.Params.Social -}}
+				<a class="btn btn-outline-light btn-social mx-1" href="{{.url}}" aria-label="{{.label}}" target="_blank" rel="noopener noreferrer"><em class="{{.icon_pack}} fa-fw {{.icon}}"></em></a>
+				{{ end }}
+			</div>
+			<div class="col-lg-6 mb-5 mb-lg-0">
+				<h3 class="text-uppercase mb-2">Code</h3>
+				{{ range .Site.Params.Code -}}
+				<a class="btn btn-outline-light btn-social mx-1" href="{{.url}}" aria-label="{{.label}}" target="_blank" rel="noopener noreferrer"><em class="{{.icon_pack}} fa-fw {{.icon}}"></em></a>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="copyright py-4 text-center text-white">
+	<div class="container"><small>Copyright &copy; {{ .Site.Author.name }} {{ now.Format "2006" }}</small></div>
+</div>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="/js/scripts.js"></script>
+</body>
+</html>

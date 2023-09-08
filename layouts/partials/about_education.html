@@ -1,0 +1,8 @@
+<h2>Education</h2>
+<p>
+  <ul>
+    {{ range sort .Site.Data.cv.education.list "Start" "desc" }}
+        <li><span class="fw-bold">{{ .What }}</span> - {{ .Who }} <span class="float-end">{{ .Start }}{{ with .End }} - {{ . }}{{end}}</span></li>
+    {{ end }}  
+  </ul> 
+</p>

@@ -1,0 +1,18 @@
+        <h2>Skills</h2>
+
+        <p>
+        <ul id="skills"> 
+                {{ range $key, $vals := .Site.Data.cv.index.Skills.Transferable }}
+                  <li>{{ range $k, $v := $vals }}<b>{{ $k }}:</b> {{ $v}}{{ end }}</li>
+                {{ end }}
+                <li><b>Technical:</b></li>
+                <ul>
+                    {{ range $skill, $items := .Site.Data.cv.index.Skills }}
+                      {{ if not (in "Transferable Other" $skill) }}<li>{{ $skill }}: {{ delimit $items ", "}}</li>{{ end }}
+                    {{ end }}
+                    {{ range $ignore, $bullet := .Site.Data.cv.index.Skills.Other }}
+                      <li>{{ $bullet }}</li>
+                    {{end}} 
+                </ul>
+            </ul>
+        </p>        

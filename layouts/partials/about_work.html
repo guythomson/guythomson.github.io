@@ -1,0 +1,14 @@
+<h2>Work Experience</h2>
+<p>
+  {{ range sort .Site.Data.cv.employers "StartYear" "desc" }}
+    <h4>{{ .Name }} {{ with .Website }}<a href={{ . }} target=”_blank”><div class="fas fa-link"></div></a>{{ end }}</h4>
+    <p>{{ with .Blurb }}{{ . }}{{ end }}</p>
+
+    <ul>
+      {{ range $index, $role:= sort .Roles "Start" "desc" }}
+        <li><span class="fw-bold">{{ $role.Name }}</span><span class="float-end">{{ dateFormat "Jan 2006" $role.Start }} {{ with $role.End }}- {{ dateFormat "Jan 2006" . }} {{ end }}</span></li>
+      {{ end }}
+    </ul> 
+
+  {{ end }}  
+</p>

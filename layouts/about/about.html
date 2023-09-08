@@ -1,0 +1,27 @@
+{{ define "main" }}
+<!-- bg-primary text-white  -->
+<section class="page-section mt-5 py-5" id="about">
+	<div class="container">
+		<!-- About Section Heading-->
+		<!-- text-white -->
+        <h2 class="page-section-heading text-center text-uppercase">About</h2>
+		<!-- Icon Divider-->
+        <!-- divider-light -->
+		<div class="divider-custom">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon"><em class="fas fa-user"></em></div>
+			<div class="divider-custom-line"></div>
+		</div>
+		<!-- About Section Content-->
+
+		<p>
+			{{ .Content }}
+		</p>		
+
+		{{ partial "about_summary.html" . }}
+        {{ partial "about_skills.html" . }}
+        {{ partial "about_work.html" . }}
+        {{ partial "about_education.html" . }}
+    </div>
+</section>
+{{ end }}

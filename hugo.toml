@@ -1,0 +1,32 @@
+baseURL = 'https://guythomson.com/'
+languageCode = 'en-gb'
+DefaultContentLanguage = "en"
+title = 'Guy Thomson'
+theme = 'freelancer'
+
+[Author]
+  name = "Guy Thomson"
+  email = "mail@guythomson.com"
+
+[params]
+  tagLine = "Passionate about building teams and a positive culture."
+  homePosts = 3
+  homeProjects = 3
+
+[[params.social]]
+  icon      = "fa-linkedin"
+  icon_pack = "fab"
+  label     = "LinkedIn"
+  url       = "https://uk.linkedin.com/in/guy-thomson-4850241a"
+
+[[params.social]]
+  icon      = "fa-twitter"
+  icon_pack = "fab"
+  label     = "Twitter"
+  url       = "https://twitter.com/guythomson"
+
+[[params.code]]
+  icon      = "fa-github"
+  icon_pack = "fab"
+  label     = "GitHub"
+  url       = "https://github.com/guythomson/"

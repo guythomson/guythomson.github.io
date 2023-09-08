@@ -1,0 +1,18 @@
+<!-- bg-primary text-white  -->
+<section class="page-section  mt-5 py-5" id="about">
+	<div class="container">
+		<!-- About Section Content-->
+        <p>
+            {{ partial "summary.html" . }}
+        </p>
+
+		{{ if .Site.Params.homebutton }}
+		<div class="text-center mt-4">
+			<a class="btn btn-xl btn-outline-light" href="{{.Site.Params.homebutton.link}}">
+				<em class="fas {{.Site.Params.Homebutton.icon}} me-2"></em>
+				{{ .Site.Params.Homebutton.text }}
+			</a>
+		</div>
+		{{ end }}
+	</div>
+</section>
