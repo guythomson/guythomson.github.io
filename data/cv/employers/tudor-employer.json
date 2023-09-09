@@ -2,7 +2,7 @@
   "Name": "Tudor Capital Europe LLP",
   "Website": "https://www.tudor.com/",
   "StartYear": 2003,
-  "Blurb": "Tudor has a rich 4-decade history in global investment with discretionary macro trading, model-driven and systematic investment approaches.",
+  "Blurb": "TCE is the European arm of Tudor Investment Corporation, a world-renowned hedge fund with a rich 4-decade history, trading most asset classes globally with discretionary macro, model-driven and systematic investment approaches.",
   "Roles": [ 
     {
       "Name": "Head of Systems Front Office IT",
@@ -23,6 +23,11 @@
       "Name": "Head of Transaction Processing",
       "Start": "2010-06-01T00:00:00.000Z",
       "End": "2012-06-01T00:00:00.000Z"
+    },
+    {
+      "Name": "Vice President",
+      "Start": "2009-12-01T00:00:00.000Z",
+      "End": "2020-10-01T00:00:00.000Z"
     },
     {
       "Name": "Software Engineering Manager",
